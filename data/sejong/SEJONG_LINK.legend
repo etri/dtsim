@@ -1,0 +1,51 @@
+- Link Attributes
+[0] LINK_ID	         string  (10,0) : link identifier
+[1] F_NODE	         string  (10,0) : start node identifier
+[2] T_NODE	         string  (10,0) : end node identifier
+[3] LANES	         float   (10,0) : number of lane
+[4] ROAD_RANK	     string  (3,0)  : road rank
+                                     101 - expressway
+								     102 - urban expressway
+								     103 - national road
+								     104 - metropolitan road
+								     105 - national local road
+								     106 - local road
+								     107 - urban road
+								     108 - etc.
+[5] ROAD_TYPE	     string  (3,0)  : road type
+                                     000 - national road
+								     001 - overpass
+								     002 - underpass
+								     003 - bridge
+								     004 - tunnel
+[6] ROAD_NO	         string  (5,0)  : road number
+[7] ROAD_NAME	     string  (30,0) : road name
+[8] ROAD_USE	     string  (1,0)  : road use
+                                     0 - use
+								     1 - unuse
+[9] MULTI_LINK	     string  (1,0)  : single or multi link
+                                     0 - single link
+								     1 - multi link
+[10] CONNECT	     string  (3,0)  : connect type 
+                                     000 - no connect
+								     101 - expressway connect
+								     102 - urban expressway connect
+								     103 - national road connect
+								     104 - metropolitan road connect
+								     105 - national local road connect
+								     106 - local road connect
+								     107 - urban road connect
+								     108 - etc. connect
+[11] MAX_SPD	     float   (10,0) : maximum speed limit
+[12] REST_VEH	     string  (5,0)  : restricted vehicle
+                                     0 - all no restriction
+								     1 - car
+								     2 - van
+								     3 - bus
+								     4 - truck
+								     5 - two wheel vehicle
+								     6 - etc.
+[13] REST_W	         float   (10,0) : restricted weight
+[14] REST_H	         float   (10,0) : restricted height
+[15] LENGTH	         float   (19,11) : road length
+[16] REMARK	         string  (30,0)
