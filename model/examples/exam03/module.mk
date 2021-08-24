@@ -1,3 +1,0 @@
-EXAMPLE_DIR := .
-
-EXAMPLE_SRC += $(EXAMPLE_DIR)/main.cpp

@@ -1,7 +1,0 @@
-logger.root = WARN, R, stdout
-logger.repast.system = DEBUG, R, stdout
-
-appender.R = RollingFileAppender
-appender.R.MaxBackupIndex =  1
-appender.R.File = ./logs/geozombie.log
-appender.R.MaxFileSize=200
