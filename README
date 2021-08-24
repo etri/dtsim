@@ -17,7 +17,7 @@ ulating city model.
     /model   : simulation model examples
 
 (b) Supporting platform
-    - Linux
+    - Linux(SentOS 7.x)
 
 (c) Language
     - C++
@@ -34,7 +34,9 @@ ulating city model.
 ===============
 
 (a) Required S/W packages
-    - install required softwares to /opt/twin
+	- cd data/install
+    - ./setup.sh
+	- source ~/.bashrc
 
 (b) compile
     make
