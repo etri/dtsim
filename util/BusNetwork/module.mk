@@ -1,0 +1,3 @@
+BUSUTIL_DIR := .
+
+BUSUTIL_SRC += $(BUSUTIL_DIR)/BusUtil.cpp
