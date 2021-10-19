@@ -92,6 +92,10 @@ public:
 		zones[zoneId] = zone;
 	}
 
+	/// remove zone
+	void removeZone(int zonId) {
+	}
+
 	/// Returns zone list
 	std::map<int, CityZone*> getZones() const {
 		return zones;
